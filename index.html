@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes, minimum-scale=0.5,maximum-scale=3.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/common.js"></script>
         <title>뉴마커스</title>
     </head>
     <body>
@@ -39,7 +40,50 @@
                 <a href="#">고객센터</a>
             </nav>
         </header>
-        <main></main>
+        <main>
+            <section class="main-banner">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/main_banner1.jpg" alt="메인배너1">
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/main_banner2.jpg" alt="메인배너2">
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/main_banner3.jpg" alt="메인배너3">
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/main_banner4.jpg" alt="메인배너4">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+                 <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    const swiper = new Swiper(".mySwiper", {
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    });
+                </script>
+            </section>
+        </main>
         <footer></footer>
     </body>
 </html>
