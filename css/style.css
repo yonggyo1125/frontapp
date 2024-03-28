@@ -72,4 +72,16 @@ header .site-top .right i {
     margin-left: 10px;
 }
 
+header nav {
+    display: flex;
+    height: 44px;
+}
+
+header nav a {
+    flex-grow: 1;
+    width: 0;
+    text-align: center;
+    line-height: 44px;
+}
+
 /* 헤더 영역 E */
