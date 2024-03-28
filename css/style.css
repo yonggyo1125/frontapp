@@ -85,3 +85,24 @@ header nav a {
 }
 
 /* 헤더 영역 E */
+
+/* 메인 배너 영역 S */
+.main-banner img {
+    width: 100%;
+}
+
+/* 메인 배너 영역 E */
+
+/* 서브 메뉴 영역 S */
+.sub-menus {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub-menus a {
+    width: calc(100% / 3);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+/* 서브 메뉴 영역 E */
