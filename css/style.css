@@ -179,6 +179,18 @@ header nav a {
     border-radius: 10px;
 }
 
+.products .product-image {
+    margin-bottom: 10px;
+    display: block;
+}
 
+.products .product-price {
+    font-size: 1.154rem;
+}
+
+.products .product-price .price {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
 
 /* 상품 목록 영역 E */
