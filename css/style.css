@@ -226,3 +226,43 @@ header nav a {
     cursor: pointer;
 }
 /* 상품 목록 영역 E */
+
+/* 하단 배너 영역 */
+.bottom-banner {
+    width: 100%;
+    display: block;
+    margin: 10px 0 20px;
+}
+
+/* 푸터 영역 S */
+footer {
+    background: #f9f9f9;
+    padding: 25px 0 80px;
+    margin-top: 25px;
+}
+
+footer .logo img {
+    width: 79px;
+    margin: 0 auto 12px;
+    display: block;
+}
+
+footer .center-phone {
+    border: 2px solid #2a2a2a;
+    border-radius: 20px;
+    height: 35px;
+    line-height: 31px;
+    width: 190px;
+    display: block;
+    margin: 0 auto 7px;
+    font-size: 1.538rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+footer .center-phone img {
+    height: 16px;
+    vertical-align: middle;
+}
+
+/* 푸터 영역 E */
