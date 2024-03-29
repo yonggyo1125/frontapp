@@ -155,3 +155,28 @@ header nav a {
     display: block;
 }
 /* 서브 배너 영역 E */
+
+/* 상품 목록 영역 S */
+.products ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px;
+}
+
+.products li {
+    width: calc(100% / 2 - 8px);
+}
+
+
+.products li:nth-of-type(2n) {
+    margin-left: 16px;
+}
+
+.products .product-image img {
+    width: 100%; 
+    display: block;
+}
+
+
+
+/* 상품 목록 영역 E */
