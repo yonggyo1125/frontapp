@@ -165,6 +165,7 @@ header nav a {
 
 .products li {
     width: calc(100% / 2 - 8px);
+    margin-bottom: 30px;
 }
 
 
@@ -175,6 +176,7 @@ header nav a {
 .products .product-image img {
     width: 100%; 
     display: block;
+    border-radius: 10px;
 }
 
 
