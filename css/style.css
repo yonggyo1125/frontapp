@@ -286,5 +286,16 @@ footer .company-info {
 
 footer .company-info img {
     width: 15px;
+    vertical-align: middle;
+}
+
+footer .links {
+    text-align: center; 
+}
+
+footer .links a {
+    font-size: 0.846rem; 
+    padding: 0 11px;
+    color: #878787;
 }
 /* 푸터 영역 E */
