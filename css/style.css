@@ -276,4 +276,15 @@ footer .bank-info span {
     font-weight: 600;
 }
 
+footer .company-info {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 0.923rem;
+    font-weight: 600;
+    color: #878787;
+}
+
+footer .company-info img {
+    width: 15px;
+}
 /* 푸터 영역 E */
