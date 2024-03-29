@@ -191,6 +191,27 @@ header nav a {
 .products .product-price .price {
     font-weight: 800;
     font-size: 1.2rem;
+    letter-spacing: -1px;
+}
+
+.products .product-name {
+    color: #3e3d3c;
+    font-size: 1.154rem;
+    word-break: break-all;
+}
+
+.products .stars img {
+    height: 11px;
+}
+
+.products .no-of-review {
+    color: #a7a7a7;
+    margin-left: 6px;
+    font-size: 0.923rem;
+}
+
+.products .review-rate {
+    margin: 10px 0 2px;
 }
 
 /* 상품 목록 영역 E */
