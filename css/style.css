@@ -265,4 +265,15 @@ footer .center-phone img {
     vertical-align: middle;
 }
 
+footer .bank-info {
+    font-size: 0.923rem; 
+    color: #2a2a2a;
+    text-align: center;
+}
+
+footer .bank-info span {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 /* 푸터 영역 E */
