@@ -214,4 +214,15 @@ header nav a {
     margin: 10px 0 2px;
 }
 
+.products .more-button {
+    font-size: 1.154rem;
+    color: #666;
+    border: 1px solid #b1b1b1;
+    font-weight: bold;
+    background: #fff;
+    padding: 8px 0;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
 /* 상품 목록 영역 E */
