@@ -87,4 +87,130 @@ main .box {
     background: #fff;
     border-bottom: 1px solid #dfe1e5;
 }
+
+main .box h2 {
+    font-size: 1.3077rem;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+
+main .box input[type='text'], 
+main .box input[type='password'] {
+  border: 1px solid #e5e5e5;
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 0 10px;
+  border-radius: 3px;  
+}
+
+main .box .input-text + .input-text {
+    margin-top: 10px;
+}
+
+main .box button[type='submit'] {
+    width: 100%;
+    display: block;
+    background: #8769f0;
+    border-radius:3px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 1.154rem;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+main input[type='checkbox'] {
+    display: none;
+}
+
+main input[type='checkbox'] + label {
+    display: inline-block;
+    height: 23px;
+    padding-left: 30px;
+    background:url("../images/chk.png") no-repeat left center;
+    background-size: 23px;
+    color: #212121;
+    margin-right: 15px;
+    font-size: 0.923rem;
+    line-height: 23px;
+}
+
+main input[type='checkbox']:checked + label {
+    background:url("../images/chk_on.png") no-repeat left center;
+    background-size: 23px;
+}
+
+main .box .chk-grp { 
+    margin: 15px 0 25px;
+}
+
+main .box .links {
+    text-align: center;
+}
+
+main .box .links a {
+    font-size: 0.923rem;
+    color: #212121;
+    padding: 0 15px;
+    position: relative;
+}
+
+main .box .links a:not(.first)::before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 11px;
+    background: #212121;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+main .box .guide {
+    color: #8b8b8b;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+main .order-search-box h2 {
+    margin-bottom: 8px;
+}
+
+main .order-search-box button.search-btn {
+    border:1px solid #8769f0;
+    color: #8769f0;
+    background: #fff;
+    margin-top: 15px;
+}
+
+main .sns-login-box .btns {
+    display: flex;
+}
+
+main .sns-login-box button:first-of-type {
+    margin-right: 10px;
+}
+
+main .sns-login-box button {
+    width: 0;
+    flex-grow: 1;
+    height: 45px;
+    border: 0;
+}
+
+main .sns-login-box button.naver-login {
+    background: #1EC800 url("../images/naver_login.png") no-repeat center center;
+    background-size: contain;
+}
+
+main .sns-login-box button.kakao-login {
+    background:#FEE500 url("../images/kakao_login.png") no-repeat center center;
+    background-size: contain;
+}
+
 /* 본문 영역 E */
